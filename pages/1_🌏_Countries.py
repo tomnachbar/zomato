@@ -2,7 +2,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-import inflection
 import folium
 from folium.plugins import MarkerCluster
 import streamlit as st
