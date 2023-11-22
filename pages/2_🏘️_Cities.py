@@ -176,7 +176,7 @@ with col2:
                   .reset_index().head(7))
 
    fig= px.bar(df_aux, x='City',y='Restaurant ID', title='Top 7 Cidades com Restaurantes com média de avaliação abaixo de 2.5',
-               color='country_name', labels={'City':'Cidades','Restaurant ID': 'Quantidade de Restaurantes'}, text_auto=True)
+               color='country_name', labels={'City':'Cidades','Restaurant ID': 'Quantidade de Restaurantes','country_name':'Países'}, text_auto=True)
    st.plotly_chart(fig,use_container_width=True)
    
 st.container()
