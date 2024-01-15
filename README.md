@@ -76,6 +76,7 @@ Tipos de Culinária
 1. A análise foi realizada com dados gerais sem um prazo pré-determinado.
 2. Marketplace foi o modelo de negócio assumido.
 3. As 3 principais visões do negócio foram: Visão por País, Visão por Cidades e Visão por tipos de Culinárias distintas.
+4. Foi utilizado uma base de dados públicas da plataforma Kaggle através do link:https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv
 
 
 ## 3. Estratégia da solução
@@ -122,4 +123,12 @@ Podemos concluir que apesar de países muito populosos aparecem diversas vezes n
 1. Para um próximo projeto sugiro a inclusão de métricas voltadas por qual tipo de consumidor foram feitas as avaliações, a fim de identificar os públicos dos restaurantes.
 2. Criar novos filtros.
 3. Adicionar a visão por gênero.
+
+## 8. Ferramentas Utilizadas para o Projeto
+
+GitHub
+Visual Studio Code
+Python
+Pandas
+Streamlit
 
